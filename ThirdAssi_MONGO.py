@@ -78,22 +78,7 @@ class ExpenseTracker:
             print("Invalid amount!")
             return False
 
-    #def _validate_expense(self, expense):
-     #   """Validate the expense data (amount and date)."""
-      #  if expense.amount <= 0:
-       #     print("Amount must be a positive number.")
-        #    return False
-        #if not self._is_valid_date(expense.date):
-         #   print("Invalid date format. Use YYYY-MM-DD.")
-          #  return False
-        #return True
 
-    #def _is_valid_date(self, date):
-     #   """Check if the date is in the correct format (YYYY-MM-DD)."""
-      #  return bool(re.match(r"\d{4}-\d{2}-\d{2}", date))
-
-
-# Simple menu for interacting with the expense tracker
 def main():
     tracker = ExpenseTracker()
 
